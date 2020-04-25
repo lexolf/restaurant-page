@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "The Restaurant Page assignment for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexolf/restaurant-page.git"
+  },
+  "author": "Lexolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexolf/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/lexolf/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
