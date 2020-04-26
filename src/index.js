@@ -1,1 +1,1 @@
-alert('webpack initialised successfully!')
+// alert('webpack initialised successfully!')
