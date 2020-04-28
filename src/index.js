@@ -1,4 +1,4 @@
 import loadWelcome from './welcome';
+import renderNavbar from './navbar';
 
-console.log('hello');
-console.log(loadWelcome());
+renderNavbar();
