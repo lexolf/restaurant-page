@@ -29,7 +29,7 @@ const renderNavbar = () => {
     navbarMenu.classList = "navbar-link";
     navbarMenu.textContent = "Menu";
     navbarLinks.appendChild(navbarMenu);
-    let navbarContacts = document.createElement("div");
+    let navbarContacts = document.createElement("a");
     navbarContacts.id = "navbar-contacts";
     navbarContacts.classList = "navbar-link";
     navbarContacts.textContent = "Contacts";
@@ -37,3 +37,16 @@ const renderNavbar = () => {
 };
 
 export default renderNavbar
+
+
+{/* <div id="navbar">
+    <div id="navbar-brand">
+        <img src="logo.png" id="navbar-logo">
+            <div id="navbar-title">Leaves & Loaves</div>
+    </div>
+    <div id="navbar-links">
+        <a id="navbar-home" class="navbar-link">Home</a>
+        <a id="navbar-menu" class="navbar-link">Menu</a>
+        <a id="navbar-contacts" class="navbar-link">Contacts</a>
+    </div>
+</div> */}
