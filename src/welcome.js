@@ -13,10 +13,10 @@ const loadWelcome = () => {
     pageTitle.classList = "page-title";
     pageTitle.textContent += "We welcome you at Leaves & Loaves!";
     container.appendChild(pageTitle);
-    let welcomeImage = document.createElement("img");
-    welcomeImage.id = "welcome-image";
-    welcomeImage.src = "welcome.jpg";
-    container.appendChild(welcomeImage);
+    let mainImage = document.createElement("img");
+    mainImage.id = "main-image";
+    mainImage.src = "welcome.jpg";
+    container.appendChild(mainImage);
     let textBlock = document.createElement("div");
     textBlock.classList = "text-block";
     container.appendChild(textBlock);
