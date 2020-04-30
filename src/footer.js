@@ -39,7 +39,13 @@ const renderFooter = () => {
     source3link.href = "https://unsplash.com/photos/3DDvgICjBYg";
     source3link.textContent = "[3]";
     source3.appendChild(source3link);
-
+    let source4 = document.createElement("li");
+    imageSources.appendChild(source4);
+    let source4link = document.createElement("a");
+    source4link.classList = "source";
+    source4link.href = "https://unsplash.com/photos/rsWZ-P9FbQ4";
+    source4link.textContent = "[4]";
+    source4.appendChild(source4link);
 }
 
     //     <div id="footer">
@@ -50,6 +56,7 @@ const renderFooter = () => {
     //         <li><a href="https://upload.wikimedia.org/wikipedia/commons/f/f9/Bread_%28example%29.svg" class="source">[1]</a></li>
     //         <li><a href="https://upload.wikimedia.org/wikipedia/commons/9/92/Wikimania2019_leaves_stem_icon.svg" class="source">[2]</a></li>
     //         <li><a href="https://unsplash.com/photos/3DDvgICjBYg" class="source">[3]</a></li>
+    //         <li><a href="https://unsplash.com/photos/rsWZ-P9FbQ4" class="source">[4]</a></li>
     //     </ul>
     // </div>
 
