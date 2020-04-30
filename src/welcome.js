@@ -1,5 +1,40 @@
 const loadWelcome = () => {
-
+    let containerExists = document.getElementById("container");
+    if(!containerExists){
+        var container = document.createElement("div");
+        container.id = "container";
+    } else {
+        var container = document.getElementById("container");
+        container.textContent = '';
+    }
+    let navbar = document.getElementById("navbar");
+    navbar.after(container);
+    let pageTitle = document.createElement("h1");
+    pageTitle.classList = "page-title";
+    pageTitle.textContent += "We welcome you at Leaves & Loaves!";
+    container.appendChild(pageTitle);
+    let welcomeImage = document.createElement("img");
+    welcomeImage.id = "welcome-image";
+    welcomeImage.src = "welcome.jpg";
+    container.appendChild(welcomeImage);
+    let textBlock = document.createElement("div");
+    textBlock.classList = "text-block";
+    container.appendChild(textBlock);
+    let p1 = document.createElement("p");
+    p1.textContent = "We are pleased to announce that our new greenhouse-themed bakery is now open!"
+    let p2 = document.createElement("p");
+    p2.textContent = "Pick a place amidst the rows of  crocuses and tulips* or among the plethora of succulents or in the shade of our ivy-decorated arches, take a sit, breathe in the air filled with flowery aromas ...and enjoy our wonderful selection of breads, buns and pies."
+    let p3 = document.createElement("p");
+    p3.textContent = "We advise you to order a cup of coffee made with freshly roasted Arabica beans, or try our teas: black, green, white, fruity, you name it.";
+    let p4 = document.createElement("p");
+    p4.innerHTML = "<em>Special offer!</em> The Easter is over but you can still try out a special Orthodox Kulich."
+    let p5 = document.createElement("p");
+    p5.innerHTML = "You can order a call from our manager to enquire about availability. <strong>Attention!</strong> Due to COVID-19, we currently offer only take-out orders and delivery. A special gift of succulent is optional for orders over $15."
+    textBlock.appendChild(p1);
+    textBlock.appendChild(p2);
+    textBlock.appendChild(p3);
+    textBlock.appendChild(p4);
+    textBlock.appendChild(p5);
 };
 
 {/*     <div id="container">
@@ -15,18 +50,6 @@ const loadWelcome = () => {
             </div>
             <a id="call-button">Order a call</a>
             <div id="disclaimer">*The flowers are seasonal and may vary</div>
-        </div>
-        <div id="footer">
-            <div id="restaurant-copyright">Leaves & Loaves (c) 2020</div>
-            <div id="made-by">Made by Lexolf</div>
-            <ul id="image-sources">
-                <li id="image-sources-label">Image sources:</li>
-                <li><a href="https://upload.wikimedia.org/wikipedia/commons/f/f9/Bread_%28example%29.svg" class="source">[1]</a></li>
-                <li><a href="https://upload.wikimedia.org/wikipedia/commons/9/92/Wikimania2019_leaves_stem_icon.svg" class="source">[2]</a></li>
-                <li><a href="https://unsplash.com/photos/3DDvgICjBYg" class="source">[3]</a></li>
-            </ul>
-        </div>
-
- */}
+        </div> */}
 
 export default loadWelcome
