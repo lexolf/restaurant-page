@@ -39,6 +39,45 @@ const renderNavbar = () => {
     navbarLinks.appendChild(navbarContacts);
 };
 
+{/* <div id="container">
+    <h1 class="page-title">Menu</h1><img id="main-image" src="menu.jpg">
+    <div id="menu-wrapper">
+        <div class="menu-item"><img class="item-img" src="croissant.jpg">
+            <div class="item-name">Croissant</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="waffle.jpg">
+            <div class="item-name">Waffle with Berries</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="garlic.jpg">
+            <div class="item-name">Garlic Bread</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="rye.jpg">
+            <div class="item-name">Rye Bread</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="sesame.jpg">
+            <div class="item-name">Sesame Bun</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="baguette.jpg">
+            <div class="item-name">French Baguette</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="cinnamon.jpg">
+            <div class="item-name">Cinnamon Roll</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="kulich.jpg">
+            <div class="item-name">Easter Kulich</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="coffee.jpg">
+            <div class="item-name">Black Coffee</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="cappuccino.jpg">
+            <div class="item-name">Cappuccino</div>
+        </div>
+        <div class="menu-item"><img class="item-img" src="herbaltea.jpg">
+            <div class="item-name">Herbal Tea</div>
+        </div>
+    </div>
+</div> */}
+
 export default renderNavbar
 
 
