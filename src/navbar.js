@@ -23,16 +23,19 @@ const renderNavbar = () => {
     navbarHome.id = "navbar-home";
     navbarHome.classList = "navbar-link";
     navbarHome.textContent = "Home";
+    navbarHome.href="#home";
     navbarLinks.appendChild(navbarHome);
     let navbarMenu = document.createElement("a");
     navbarMenu.id = "navbar-menu";
     navbarMenu.classList = "navbar-link";
     navbarMenu.textContent = "Menu";
+    navbarMenu.href="#menu";
     navbarLinks.appendChild(navbarMenu);
     let navbarContacts = document.createElement("a");
     navbarContacts.id = "navbar-contacts";
     navbarContacts.classList = "navbar-link";
     navbarContacts.textContent = "Contacts";
+    navbarContacts.href="#contacts";
     navbarLinks.appendChild(navbarContacts);
 };
 
