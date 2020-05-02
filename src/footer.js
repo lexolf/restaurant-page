@@ -34,7 +34,8 @@ const renderFooter = () => {
         "https://unsplash.com/photos/aFxBAwwfSnc",
         "https://unsplash.com/photos/zUNs99PGDg0",
         "https://unsplash.com/photos/nBJHO6wmRWw",
-        "https://unsplash.com/photos/vtntD9h1xBw"
+        "https://unsplash.com/photos/vtntD9h1xBw",
+        "https://unsplash.com/photos/tMI2_-r5Nfo"
     ]
 
 
