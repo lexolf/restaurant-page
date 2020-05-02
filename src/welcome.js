@@ -11,7 +11,7 @@ const loadWelcome = () => {
     navbar.after(container);
     let pageTitle = document.createElement("h1");
     pageTitle.classList = "page-title";
-    pageTitle.textContent += "We welcome you at Leaves & Loaves!";
+    pageTitle.textContent += "Welcome to Leaves & Loaves";
     container.appendChild(pageTitle);
     let mainImage = document.createElement("img");
     mainImage.id = "main-image";
