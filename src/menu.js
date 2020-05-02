@@ -18,6 +18,10 @@ const loadMenu = () => {
     mainImage.src = "menu.jpg";
     container.appendChild(mainImage);
 
+    let menuWrapper = document.createElement("div");
+    menuWrapper.id = "menu-wrapper";
+    container.appendChild(menuWrapper);
+
     let menuItems = [
         ['Croissant', 'croissant.jpg'],
         ['Waffle with Berries', 'waffle.jpg'],
@@ -33,7 +37,17 @@ const loadMenu = () => {
     ]
 
     for(let i in menuItems){
-
+        let menuItem = document.createElement("div");
+        menuItem.classList = "menu-item";
+        menuWrapper.appendChild(menuItem);
+        let itemImg = document.createElement("img");
+        itemImg.classList = "item-img";
+        itemImg.src = menuItems[i][1];
+        menuItem.appendChild(itemImg);
+        let itemName = document.createElement("div");
+        itemName.classList = "item-name";
+        itemName.textContent = menuItems[i][0];
+        menuItem.appendChild(itemName);
     }
 };
 
